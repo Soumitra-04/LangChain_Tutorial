@@ -6,6 +6,6 @@ readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "langchain-groq>=1.1.2",
-    "langchain[anthropic,google-genai,mistralai,openai]>=1.2.10",
+    "langchain[anthropic,google-genai,groq,mistralai,openai]>=1.2.10",
     "python-dotenv>=1.2.2",
 ]
