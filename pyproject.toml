@@ -7,5 +7,6 @@ requires-python = ">=3.13"
 dependencies = [
     "langchain-groq>=1.1.2",
     "langchain[anthropic,google-genai,groq,mistralai,openai]>=1.2.10",
+    "langgraph>=1.0.10",
     "python-dotenv>=1.2.2",
 ]

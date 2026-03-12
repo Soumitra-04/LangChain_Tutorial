@@ -630,6 +630,7 @@ source = { virtual = "." }
 dependencies = [
     { name = "langchain", extra = ["anthropic", "google-genai", "groq", "mistralai", "openai"] },
     { name = "langchain-groq" },
+    { name = "langgraph" },
     { name = "python-dotenv" },
 ]
 
@@ -637,6 +638,7 @@ dependencies = [
 requires-dist = [
     { name = "langchain", extras = ["anthropic", "google-genai", "groq", "mistralai", "openai"], specifier = ">=1.2.10" },
     { name = "langchain-groq", specifier = ">=1.1.2" },
+    { name = "langgraph", specifier = ">=1.0.10" },
     { name = "python-dotenv", specifier = ">=1.2.2" },
 ]
 
